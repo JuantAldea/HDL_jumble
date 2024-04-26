@@ -20,6 +20,9 @@ else ifeq ($(TARGET),nexys_video)
   XDC := ${current_dir}/nexys_video.xdc
 else ifeq ($(TARGET),basys3)
   XDC := ${current_dir}/basys3.xdc
+else ifeq ($(TARGET),pynq_z2)
+  XDC := ${current_dir}/pynq_z2.xdc
+  SOURCES:=${current_dir}/counter_zynq.v
 endif
 
 include ${current_dir}/../../common/common.mk

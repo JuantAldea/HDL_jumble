@@ -35,6 +35,11 @@ else ifeq ($(TARGET),basys3)
   BITSTREAM_DEVICE := artix7
   PARTNAME := xc7a35tcpg236-1
   OFL_BOARD := $(TARGET)
+else ifeq ($(TARGET), pynq_z2)
+  DEVICE := xc7z020_test
+  BITSTREAM_DEVICE := zynq7
+  PARTNAME := xc7z020clg400-1
+  OFL_BOARD := $(TARGET)
 else
   $(error Unsupported board type)
 endif
