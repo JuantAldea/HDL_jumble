@@ -7,7 +7,7 @@
   -->
 </p>
 
-# Edit: Includes XDC and target configuration for the Pynq Z2 Board
+# Includes XDC and target configuration for the Pynq Z2 Board
 ![Pynq Z2 User Manual](https://github.com/JuantAldea/HDL_jumble/blob/blobs/pynqz2_user_manual_v1_0-1525725.pdf)
 
 ![Board](https://github.com/JuantAldea/HDL_jumble/blob/blobs/pynq_z2_board.jpg)
