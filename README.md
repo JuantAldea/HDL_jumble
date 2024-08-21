@@ -7,6 +7,13 @@
   -->
 </p>
 
+# Edit: Includes XDC and target configuration for the Pynq Z2 Board
+![Pynq Z2 User Manual](https://github.com/JuantAldea/HDL_jumble/blob/blobs/pynqz2_user_manual_v1_0-1525725.pdf)
+
+![Board](https://github.com/JuantAldea/HDL_jumble/blob/blobs/pynq_z2_board.jpg)
+
+
+
 # F4PGA examples
 
 <p align="center">
@@ -15,6 +22,10 @@
   <a title="ReadTheDocs CI Status" href="https://f4pga-examples.readthedocs.io/en/latest/?badge=latest"><img alt="'Doc' workflow status" src="https://img.shields.io/readthedocs/f4pga-examples?longCache=true&style=flat-square&logo=ReadTheDocs&logoColor=fff&label=F4PGA%20Examples%20Documentation"></a><!--
   -->
 </p>
+
+
+
+
 
 This repository provides example FPGA designs that can be built using the F4PGA open source toolchain.
 These examples target the Xilinx 7-Series and the QuickLogic EOS S3 devices.
